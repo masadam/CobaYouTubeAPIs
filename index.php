@@ -32,7 +32,6 @@ $YTLatestVideoID = $YT_API_Videos_result['items'][0]['id']['videoId'];
 //5 Video Trending Indonesia
 $YTVideoTrending1 = $YT_API_Trending_Videos_results['items'][0]['id'];
 $YTVideoTrending2 = $YT_API_Trending_Videos_results['items'][1]['id'];
-$YTVideoTrending2 = $YT_API_Trending_Videos_results['items'][2]['id'];
 
 ?>
 <!doctype html>
@@ -94,7 +93,7 @@ $YTVideoTrending2 = $YT_API_Trending_Videos_results['items'][2]['id'];
       <div class="container">
         <div class="row pt-4 mb-4">
           <div class="col text-center">
-            <h2>Kanal YouTube Google Developer</h2>
+            <h2>Kanal Mas Adam</h2>
           </div>
         </div>
 
@@ -102,7 +101,7 @@ $YTVideoTrending2 = $YT_API_Trending_Videos_results['items'][2]['id'];
           <div class="col-md-5">
             <div class="row">
               <div class="col-md-4">
-                <img src="<?= $YTChannelPic; ?>" width="200" alt="" class="rounded-circle img-thumbnail">
+                <img src="<?= $YTChannelPic; ?>" width="200" alt="" class="rounded-circle img-thumbnail"> <!--ambil  Foto Profil Channel Terkini-->
               </div>
               <div class="col-md-8">
                 <h5><?= $YTChannelName; ?></h5> <!--ambil  Nama Channel Terkini-->
@@ -171,5 +170,6 @@ $YTVideoTrending2 = $YT_API_Trending_Videos_results['items'][2]['id'];
     
     <!--Script Tombol Subscription-->
     <script src="https://apis.google.com/js/platform.js"></script>
+
   </body>
 </html>
