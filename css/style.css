@@ -15,15 +15,16 @@ footer {
     padding-top:12px;
 }
 
-.aselole{
+.instagram{
     width: 100px;
     height: 100px;
     float: left;
     overflow: hidden;
 }
 
-.aselole img {
+.instagram img {
     width: 100px;
+    height: 11px;
 }
 
 /* Key API YT : AIzaSyCH1fWHEJwA4gGBZKwckOMHtXhOvMBzZto */
